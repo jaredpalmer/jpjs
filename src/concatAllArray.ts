@@ -1,4 +1,4 @@
-import { Many } from '../types';
+import { Many } from './types';
 
 let push = Array.prototype.push;
 

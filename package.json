@@ -7,7 +7,7 @@
   "source": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle --typescript && cp ./dist/src/** ./dist/ && rm -rf ./dist/src",
     "start": "microbundle watch --typescript"
   },
   "devDependencies": {
