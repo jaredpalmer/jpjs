@@ -1,6 +1,6 @@
 {
   "name": "jpjs",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "dist/jpjs.js",
   "umd:main": "dist/jpjs.umd.js",
   "module": "dist/jpjs.esm.js",
