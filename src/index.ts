@@ -1,3 +1,4 @@
+export * from './clamp';
 export * from './compactArray';
 export * from './concatAllArray';
 export * from './copyToClipboard';
