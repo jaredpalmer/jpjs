@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "npm run build",
+    "test": "echo \"yolo\"",
     "build": "microbundle --typescript && cp ./dist/src/* ./dist/ && rm -rf ./dist/src",
     "start": "microbundle watch --typescript"
   },
